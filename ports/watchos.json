@@ -1,36 +1,36 @@
 {
   "commit": "a76294d796b12bfe486bdd6562a7d149958e119a",
-  "generated_at": "2026-08-24T02:55:52Z",
+  "generated_at": "2026-08-25T02:52:11Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 325331000
+        "duration_ns": 435398000
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 141582000
+        "duration_ns": 195223000
       },
       "intArithmetic": {
         "checksum": "1307491170054",
-        "duration_ns": 168687000
+        "duration_ns": 218026000
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 101440000
+        "duration_ns": 138694000
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 387812000
+        "duration_ns": 509743000
       },
       "quicksort": {
         "checksum": "809667393311589960",
-        "duration_ns": 305007000
+        "duration_ns": 399320000
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 660641000
+        "duration_ns": 1043299000
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -44,7 +44,7 @@
     "suite_checksum": 0
   },
   "port": "watchos",
-  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/32683666890",
+  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/32801673152",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
