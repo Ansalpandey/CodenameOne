@@ -1,36 +1,36 @@
 {
   "commit": "a76294d796b12bfe486bdd6562a7d149958e119a",
-  "generated_at": "2026-08-29T08:34:27Z",
+  "generated_at": "2026-08-30T07:22:20Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 435061000
+        "duration_ns": 422643000
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 28141000
+        "duration_ns": 29141000
       },
       "intArithmetic": {
         "checksum": "1307491170054",
-        "duration_ns": 143860000
+        "duration_ns": 133195000
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 88575000
+        "duration_ns": 80777000
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 427920000
+        "duration_ns": 451836000
       },
       "quicksort": {
         "checksum": "809667393311589960",
-        "duration_ns": 159109000
+        "duration_ns": 177505000
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 228793000
+        "duration_ns": 263654000
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -44,13 +44,13 @@
     "suite_checksum": 0
   },
   "port": "ios-gl",
-  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/33241791431",
+  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/33297325693",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
-    "fail": 1,
+    "fail": 0,
     "not-run": 0,
-    "pass": 173,
+    "pass": 174,
     "skip": 5
   },
   "tests": {
@@ -84,10 +84,7 @@
     },
     "AppReviewDialogScreenshotTest": {
       "feature": "dialogs-and-labels",
-      "reasons": [
-        "screenshot-different:AppReviewDialog"
-      ],
-      "status": "fail"
+      "status": "pass"
     },
     "AudioMixerApiTest": {
       "feature": "audio-media-playback",
