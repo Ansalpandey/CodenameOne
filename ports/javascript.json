@@ -1,48 +1,48 @@
 {
   "commit": "a76294d796b12bfe486bdd6562a7d149958e119a",
-  "generated_at": "2026-08-30T07:51:17Z",
+  "generated_at": "2026-08-31T08:00:43Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 1475199999
+        "duration_ns": 852500000
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 847000000
+        "duration_ns": 710200000
       },
       "hashMapChurn": {
         "checksum": "49941",
-        "duration_ns": 14260300000
+        "duration_ns": 8574400000
       },
       "intArithmetic": {
         "checksum": "1313580095284",
-        "duration_ns": 707100000
+        "duration_ns": 500800000
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 3727000000
+        "duration_ns": 2250500000
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 584399999
+        "duration_ns": 284099999
       },
       "objectAllocation": {
         "checksum": "2999790376128",
-        "duration_ns": 2768199999
+        "duration_ns": 1619000000
       },
       "quicksort": {
         "checksum": "786886890168670967",
-        "duration_ns": 576900000
+        "duration_ns": 431800001
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 1093400000
+        "duration_ns": 775900000
       },
       "stringBuilding": {
         "checksum": "-609121604069",
-        "duration_ns": 1108200001
+        "duration_ns": 694399999
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -52,7 +52,7 @@
     "suite_checksum": 0
   },
   "port": "javascript",
-  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/33298634741",
+  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/33368351958",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
