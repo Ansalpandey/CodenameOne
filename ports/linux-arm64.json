@@ -1,48 +1,48 @@
 {
   "commit": "a76294d796b12bfe486bdd6562a7d149958e119a",
-  "generated_at": "2026-08-31T08:01:31Z",
+  "generated_at": "2026-09-01T07:13:52Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 169375043
+        "duration_ns": 169547278
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 25469011
+        "duration_ns": 25034741
       },
       "hashMapChurn": {
         "checksum": "49941",
-        "duration_ns": 39113125
+        "duration_ns": 35435421
       },
       "intArithmetic": {
         "checksum": "1307491170054",
-        "duration_ns": 62847571
+        "duration_ns": 62796371
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 39380283
+        "duration_ns": 39327577
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 270517871
+        "duration_ns": 270508607
       },
       "objectAllocation": {
         "checksum": "2999790376128",
-        "duration_ns": 4504926683
+        "duration_ns": 4523474881
       },
       "quicksort": {
         "checksum": "809667393311589960",
-        "duration_ns": 94744151
+        "duration_ns": 94598873
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 140554053
+        "duration_ns": 132378249
       },
       "stringBuilding": {
         "checksum": "-609121604069",
-        "duration_ns": 47357050
+        "duration_ns": 45605723
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -52,7 +52,7 @@
     "suite_checksum": 0
   },
   "port": "linux-arm64",
-  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/33369287605",
+  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/33479004729",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
