@@ -1,48 +1,48 @@
 {
   "commit": "a76294d796b12bfe486bdd6562a7d149958e119a",
-  "generated_at": "2026-09-02T06:49:54Z",
+  "generated_at": "2026-09-03T06:52:45Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 1000899999
+        "duration_ns": 1174500000
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 764500000
+        "duration_ns": 663900000
       },
       "hashMapChurn": {
         "checksum": "49941",
-        "duration_ns": 8295500000
+        "duration_ns": 11284900000
       },
       "intArithmetic": {
         "checksum": "1313580095284",
-        "duration_ns": 656800001
+        "duration_ns": 551900001
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 2782700000
+        "duration_ns": 2895000000
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 291500000
+        "duration_ns": 488400000
       },
       "objectAllocation": {
         "checksum": "2999790376128",
-        "duration_ns": 1734700000
+        "duration_ns": 2095100001
       },
       "quicksort": {
         "checksum": "786886890168670967",
-        "duration_ns": 430900000
+        "duration_ns": 448299999
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 914899999
+        "duration_ns": 850300000
       },
       "stringBuilding": {
         "checksum": "-609121604069",
-        "duration_ns": 795000000
+        "duration_ns": 901199999
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -52,7 +52,7 @@
     "suite_checksum": 0
   },
   "port": "javascript",
-  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/33598095596",
+  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/33722659880",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
