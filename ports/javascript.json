@@ -1,48 +1,48 @@
 {
   "commit": "a76294d796b12bfe486bdd6562a7d149958e119a",
-  "generated_at": "2026-09-16T07:11:07Z",
+  "generated_at": "2026-09-17T07:12:19Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 1481700000
+        "duration_ns": 1491500000
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 927600000
+        "duration_ns": 912600000
       },
       "hashMapChurn": {
         "checksum": "49941",
-        "duration_ns": 14001099999
+        "duration_ns": 14192300000
       },
       "intArithmetic": {
         "checksum": "1313580095284",
-        "duration_ns": 671700000
+        "duration_ns": 677700001
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 3470700001
+        "duration_ns": 3492299999
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 570300000
+        "duration_ns": 572900000
       },
       "objectAllocation": {
         "checksum": "2999790376128",
-        "duration_ns": 2839500000
+        "duration_ns": 2816099999
       },
       "quicksort": {
         "checksum": "786886890168670967",
-        "duration_ns": 567900000
+        "duration_ns": 595699999
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 1022200000
+        "duration_ns": 1086800001
       },
       "stringBuilding": {
         "checksum": "-609121604069",
-        "duration_ns": 1074400001
+        "duration_ns": 1140600000
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -52,7 +52,7 @@
     "suite_checksum": 0
   },
   "port": "javascript",
-  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/35064122905",
+  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/35190180203",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
