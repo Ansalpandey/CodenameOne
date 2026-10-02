@@ -1,36 +1,36 @@
 {
   "commit": "a76294d796b12bfe486bdd6562a7d149958e119a",
-  "generated_at": "2026-10-01T07:35:47Z",
+  "generated_at": "2026-10-02T07:26:17Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 472674000
+        "duration_ns": 713234000
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 162895000
+        "duration_ns": 259045000
       },
       "intArithmetic": {
         "checksum": "1307491170054",
-        "duration_ns": 197628000
+        "duration_ns": 219816000
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 107427000
+        "duration_ns": 143287000
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 530561000
+        "duration_ns": 720678000
       },
       "quicksort": {
         "checksum": "809667393311589960",
-        "duration_ns": 327691000
+        "duration_ns": 437608000
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 645217000
+        "duration_ns": 1010165000
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -44,13 +44,13 @@
     "suite_checksum": 0
   },
   "port": "tvos",
-  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/36828786459",
+  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/36976203666",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
-    "fail": 0,
+    "fail": 1,
     "not-run": 0,
-    "pass": 171,
+    "pass": 170,
     "skip": 8
   },
   "tests": {
@@ -774,7 +774,10 @@
     },
     "VectorMapShapesScreenshotTest": {
       "feature": "vector-maps",
-      "status": "pass"
+      "reasons": [
+        "screenshot-different:VectorMapShapes"
+      ],
+      "status": "fail"
     },
     "VideoIODecodedFramesScreenshotTest": {
       "feature": "video-decoding",
