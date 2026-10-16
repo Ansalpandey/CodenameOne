@@ -1,36 +1,36 @@
 {
   "commit": "a76294d796b12bfe486bdd6562a7d149958e119a",
-  "generated_at": "2026-10-15T06:35:58Z",
+  "generated_at": "2026-10-16T06:42:48Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 271851000
+        "duration_ns": 518225000
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 21456000
+        "duration_ns": 21537000
       },
       "intArithmetic": {
         "checksum": "1307491170054",
-        "duration_ns": 107548000
+        "duration_ns": 120282000
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 66796000
+        "duration_ns": 70171000
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 300282000
+        "duration_ns": 419143000
       },
       "quicksort": {
         "checksum": "809667393311589960",
-        "duration_ns": 124578000
+        "duration_ns": 125631000
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 155010000
+        "duration_ns": 245864000
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -44,13 +44,13 @@
     "suite_checksum": 0
   },
   "port": "ios-metal",
-  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/38689220207",
+  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/38857766084",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
-    "fail": 0,
+    "fail": 1,
     "not-run": 0,
-    "pass": 174,
+    "pass": 173,
     "skip": 5
   },
   "tests": {
@@ -526,7 +526,10 @@
     },
     "OrientationLockScreenshotTest": {
       "feature": "orientation",
-      "status": "pass"
+      "reasons": [
+        "screenshot-different:landscape"
+      ],
+      "status": "fail"
     },
     "PaletteOverrideThemeScreenshotTest": {
       "feature": "theme-palette-css",
