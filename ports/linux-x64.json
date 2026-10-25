@@ -1,48 +1,48 @@
 {
   "commit": "a76294d796b12bfe486bdd6562a7d149958e119a",
-  "generated_at": "2026-10-07T08:08:20Z",
+  "generated_at": "2026-10-25T07:16:58Z",
   "performance": {
     "benchmark_version": 1,
     "benchmarks": {
       "arrayRandom": {
         "checksum": "-2288487891715278",
-        "duration_ns": 311413708
+        "duration_ns": 273764078
       },
       "arraySequential": {
         "checksum": "0",
-        "duration_ns": 30514088
+        "duration_ns": 30301801
       },
       "hashMapChurn": {
         "checksum": "49941",
-        "duration_ns": 46094001
+        "duration_ns": 46628686
       },
       "intArithmetic": {
         "checksum": "1307491170054",
-        "duration_ns": 79204214
+        "duration_ns": 79426548
       },
       "longArithmetic": {
         "checksum": "6887886960473257608",
-        "duration_ns": 60617594
+        "duration_ns": 60815107
       },
       "mathTranscendental": {
         "checksum": "4729652805076374709",
-        "duration_ns": 253269955
+        "duration_ns": 237189620
       },
       "objectAllocation": {
         "checksum": "2999790376128",
-        "duration_ns": 2853623040
+        "duration_ns": 2727703963
       },
       "quicksort": {
         "checksum": "809667393311589960",
-        "duration_ns": 137382380
+        "duration_ns": 137292004
       },
       "recursion": {
         "checksum": "33385282",
-        "duration_ns": 181321695
+        "duration_ns": 181283297
       },
       "stringBuilding": {
         "checksum": "-609121604069",
-        "duration_ns": 41632040
+        "duration_ns": 45228561
       }
     },
     "method": "minimum of five measured runs after three in-process warm-ups",
@@ -52,13 +52,13 @@
     "suite_checksum": 0
   },
   "port": "linux-x64",
-  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/37588973025",
+  "run_url": "https://github.com/Ansalpandey/CodenameOne/actions/runs/40170574933",
   "schema_version": 1,
   "suite_finished": true,
   "summary": {
-    "fail": 0,
+    "fail": 1,
     "not-run": 0,
-    "pass": 176,
+    "pass": 175,
     "skip": 3
   },
   "tests": {
@@ -315,7 +315,10 @@
     },
     "DrawImage": {
       "feature": "graphics-text-images",
-      "status": "pass"
+      "reasons": [
+        "screenshot-different:graphics-draw-image-rect"
+      ],
+      "status": "fail"
     },
     "DrawLine": {
       "feature": "graphics-primitives",
